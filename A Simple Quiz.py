@@ -42,11 +42,11 @@ for i in quiz:
         else:
             print('Wrong Answer')
             print(f'Correct answer was {i[-1][7:]}')
-            print(f'Congratuations !! You have won {win} points' if win != 0 else f'Better luck next time!')
     
     except ValueError:
         print('No such option exists. Question skipped.')
     except KeyboardInterrupt:
         pass
 
+print(f'Congratuations !! You have won {win} points' if win != 0 else f'Better luck next time!')
 print('Thank You!')
