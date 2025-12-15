@@ -28,9 +28,11 @@ try:
         for sym in range(n_symbols):
             password.append(sc.choice(symbols))
 
-        sc.SystemRandom.shuffle(password)
+        sysrand = sc.SystemRandom()
+        sysrand.shuffle(password)
         print("Here's your new Password:")
         print("".join(password))
     
 except ValueError:
     print('Please enter a valid value. Program stopped.')
+
