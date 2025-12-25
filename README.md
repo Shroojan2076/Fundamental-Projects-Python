@@ -8,3 +8,5 @@ Calculator -- > It is a simple program which allows you to perform the four basi
 A Simple Quiz -- > It is a game-like program which is a quiz. It asks you questions and keeps track of points. It also has a decent interaction system.
 
 Password Generator -- > It is a program which will generate password which is competely random based on how many letters, numbers and sumbols the user want in it.
+
+Turtle Race -- > It is a program made using turtle library which simulates a turtle race on which you are asked to bet. It is my first UI based project.
