@@ -19,6 +19,13 @@ Here's a list of what this repository currently have:
 ## Morse Code Converter (Tkinter UI)
 -- > A GUI-based application built using Tkinter that converts text into Morse code. It converts user-input text into Morse code. It uses a CSV file (morse-code.csv) as a data source and handles unsupported characters by replacing them with /. Finally it displays output dynamically on the screen.
 
+## User Management System (SQLAlchemy)
+
+-- > A command-line application built using SQLAlchemy ORM to manage user data.
+* Supports adding, editing, and deleting users with validation checks.
+* Prevents duplicate entries and ensures basic data integrity.
+* Stores user creation time using a timestamp field.
+* Focuses on understanding ORM concepts and database interactions.
 
 
 ## Purpose of This Repository
